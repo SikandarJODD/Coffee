@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, rgb(66, 38, 247), rgb(38, 252, 248));
+}
+header img {
+  width: 50px;
+  height: 70px;
+  margin: 10px 3px;
+  transition: all 0.3 ease;
+}
+header p {
+  font-size: 3rem;
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(50, 24, 1);
+  transition: all 0.3s ease;
+  padding-left: 5%;
+}
+header p:hover {
+  transition: all 0.3s ease;
+  color: rgb(18, 17, 17);
+}
+
+.content_main1 {
+  height: 88vh;
+  background: linear-gradient(to right, rgb(66, 38, 247), rgb(38, 252, 248));
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+.content_main1 .left_content {
+  height: 450px;
+  padding: 10px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content_main1 .left_content h1 {
+  font-family: "Rampart One", cursive;
+  font-weight: 100;
+  color: rgba(1, 1, 1, 0.902);
+  font-size: 4rem;
+  line-height: 1.2;
+}
+.content_main1 .left_content h1 span {
+  font-size: 4.2rem;
+  font-family: "Rampart One", cursive;
+  color: #760c00;
+  transition: all 0.3s ease;
+}
+.content_main1 .left_content h1 span:hover {
+  color: #97fafc !important;
+}
+.content_main1 .left_content p {
+  font-size: 2.3rem;
+  font-family: "Questrial", sans-serif;
+  color: rgba(252, 250, 247, 0.9529411765);
+  margin-top: 20px;
+  line-height: 1.2;
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
+.content_main1 .right_content img {
+  transform-style: preserve-3d;
+  transform: translateZ(50px);
+  transition: all 0.3s ease;
+  height: 450px;
+  z-index: 2;
+}
+
+.js-tilt-glare {
+  border-radius: 18px;
+}
+
+.cups {
+  position: absolute;
+}
+.cups .img_logo_2 {
+  width: 300px;
+  position: relative;
+  top: -140px;
+  left: 1090px;
+}
+
+.content_main2 {
+  background: linear-gradient(to right, rgb(66, 38, 247), rgb(58, 199, 250));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_main2 .left_content1 {
+  width: 300px;
+}
+.content_main2 .left_content1 .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+.content_main2 .left_content1 img {
+  width: 350px;
+  transform: translateZ(50px);
+  transition: all 0.3s ease;
+}
+.content_main2 .left_content1 .card-title {
+  transform: translateZ(10px);
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Bad Script", cursive;
+}
+.content_main2 .right_content1 {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 70px;
+}
+.content_main2 .right_content1 h2 {
+  font-size: 3.5rem;
+  font-family: "Rampart One", cursive;
+  color: rgba(12, 3, 95, 0.917);
+  line-height: 1.2;
+}
+.content_main2 .right_content1 h2 span {
+  font-size: 3.5rem;
+  font-family: "Rampart One", cursive;
+  font-weight: 300;
+  color: #760c00;
+}
+.content_main2 .right_content1 ul {
+  margin-top: 20px;
+}
+.content_main2 .right_content1 ul > li {
+  font-size: 1.5rem;
+  margin-left: 50px;
+}
+.content_main2 .right_content1 ul > li span {
+  font-size: 1.7rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  color: rgba(2, 21, 90, 0.6980392157);
+}/*# sourceMappingURL=style.css.map */
