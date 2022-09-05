@@ -1,5 +1,5 @@
 document.getElementById('header_logo').addEventListener("mouseenter", () => {
-    document.getElementById('coffee_logo').src = "/imgs/img_logo.png";
+    document.getElementById('coffee_logo').src = "imgs/img_logo.png";
     document.getElementById('coffee_logo').style.width = "70px";
     document.getElementById('coffee_logo').style.height = "70px";
     document.getElementById('coffee_logo').style.transform = "scale(1.2)";
